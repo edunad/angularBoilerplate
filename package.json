@@ -1,0 +1,79 @@
+{
+  "name": "angularboiler",
+  "productName": "Angular4Boilerplate",
+  "version": "0.0.1",
+  "description": "A angular boilerplate",
+  "license": "APACHE-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edunad/angular4boilerplate.git"
+  },
+  "author": "Eduardo Fernandes (FailCake)",
+  "scripts": {
+    "watch": "npm run watch:dev",
+    "watch:dev": "webpack --watch --progress --profile --display-error-details --color",
+    "build": "npm run build:dev",
+    "build:dev": "webpack --progress --profile",
+    "start": "node src/app/core.js"
+  },
+  "dependencies": {
+    "@angular/animations": "^4.3.6",
+    "@angular/common": "^4.3.6",
+    "@angular/compiler": "^4.3.6",
+    "@angular/core": "^4.3.6",
+    "@angular/forms": "^4.3.6",
+    "@angular/http": "^4.3.6",
+    "@angular/platform-browser": "^4.3.6",
+    "@angular/platform-browser-dynamic": "^4.3.6",
+    "@angular/platform-server": "^4.3.6",
+    "@angular/router": "^4.3.6",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/store": "^4.0.3",
+    "@types/node": "^8.0.25",
+    "core-js": "^2.5.0",
+    "express": "^4.15.4",
+    "qs": "^6.5.0",
+    "rxjs": "^5.4.3",
+    "typescript": "2.4.2",
+    "webpack": "^3.5.5",
+    "zone.js": "^0.8.17"
+  },
+  "devDependencies": {
+    "@types/source-map": "^0.5.1",
+    "@types/webpack": "^3.0.10",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.2.3",
+    "css-loader": "^0.28.5",
+    "es6-promise-loader": "^1.0.2",
+    "file-loader": "^0.11.2",
+    "imports-loader": "^0.7.1",
+    "json-loader": "^0.5.7",
+    "raw-loader": "0.5.1",
+    "reflect-metadata": "0.1.10",
+    "source-map-loader": "^0.2.1",
+    "string-replace-loader": "^1.3.0",
+    "style-loader": "^0.18.2",
+    "svg-url-loader": "^2.1.1",
+    "ts-helpers": "^1.1.2",
+    "url-loader": "^0.5.9",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "engines": {
+    "node": ">= 4.2.1 <= 8",
+    "npm": ">= 3"
+  },
+  "bugs": {
+    "url": "https://github.com/edunad/angular4boilerplate/issues"
+  },
+  "homepage": "https://github.com/edunad/angular4boilerplate#readme",
+  "main": "core.js"
+}
