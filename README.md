@@ -6,7 +6,10 @@ A custom boiler plate for the latest angular / typescript, works well with elect
 ```
 config.target = 'electron-renderer';
 ```
-**At the end of the webpack.config.js files**
+**At the end of the webpack.config.js files and install the module**
+```
+webpack-target-electron-renderer
+```
 
 
 
