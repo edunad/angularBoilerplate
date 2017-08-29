@@ -3,7 +3,6 @@
   "productName": "Angular4Boilerplate",
   "version": "0.0.1",
   "description": "A angular boilerplate",
-  "license": "APACHE-2.0",
   "private": true,
   "repository": {
     "type": "git",
