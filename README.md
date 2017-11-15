@@ -1,17 +1,7 @@
-# angular4boilerplate
+# angularBoilerplate
 A custom boiler plate for the latest angular / typescript, works well with electron.
 
-**If you wish to use electron, add**
-
-```
-config.target = 'electron-renderer';
-```
-**At the end of the webpack.config.js files and install the module**
-```
-webpack-target-electron-renderer
-```
-
-
+**If you wish to use electron, use the electron branch**
 
 # How to run
 ## Install all the dependencies
