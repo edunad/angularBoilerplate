@@ -121,4 +121,5 @@ var config = {
     }
 };
 
+config.target = 'electron-renderer';
 module.exports = config;

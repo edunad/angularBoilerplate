@@ -14,7 +14,7 @@
     "watch:dev": "webpack --watch --progress --profile --display-error-details --color",
     "build": "npm run build:dev",
     "build:dev": "webpack --progress --profile",
-    "start": "node src/app/core.js"
+    "start": "electron src/app"
   },
   "dependencies": {
     "@angular/animations": "^4.3.6",
@@ -31,11 +31,13 @@
     "@ngrx/store": "^4.0.3",
     "@types/node": "^8.0.25",
     "core-js": "^2.5.0",
+    "electron": "^1.7.9",
     "express": "^4.15.4",
     "qs": "^6.5.0",
     "rxjs": "^5.4.3",
     "typescript": "2.4.2",
     "webpack": "^3.5.5",
+    "webpack-target-electron-renderer": "^0.4.0",
     "zone.js": "^0.8.17"
   },
   "devDependencies": {
@@ -55,9 +57,7 @@
     "style-loader": "^0.18.2",
     "svg-url-loader": "^2.1.1",
     "ts-helpers": "^1.1.2",
-    "url-loader": "^0.5.9",
-    "webpack-dev-middleware": "^1.12.0",
-    "webpack-dev-server": "^2.7.1"
+    "url-loader": "^0.5.9"
   },
   "xo": {
     "esnext": true,

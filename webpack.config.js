@@ -115,6 +115,8 @@ var config = {
         clearImmediate: false,
         setImmediate: false
     }
+	
 };
 
+config.target = 'electron-renderer';
 module.exports = config;
