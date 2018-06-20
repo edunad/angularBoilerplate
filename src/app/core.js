@@ -23,7 +23,7 @@ if(app != null){
 
 function createMainWindow() {
   var win = new BrowserWindow({
-	  width: 425,
+	width: 425,
     height: 510,
     frame: false,
     center: true,
@@ -44,12 +44,10 @@ function createMainWindow() {
 	  console.log( '== Crashed ==');
 	  console.log( event );
 	});
-
+	
 	// Open the DevTools.
-	win.webContents.openDevTools({
-		detach: true
-	});
-
+	win.webContents.openDevTools({mode: 'detach'});
+	
   return win;
 }
 

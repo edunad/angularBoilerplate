@@ -5,12 +5,10 @@ import { Subscription }   from 'rxjs/Subscription';
   selector: 'boiler',
   templateUrl: '../views/main.html'
 })
-
 export class AppComponent implements OnInit, OnDestroy {
 
   constructor() {}
 
   ngOnInit() {}
   ngOnDestroy() {}
-
 }
